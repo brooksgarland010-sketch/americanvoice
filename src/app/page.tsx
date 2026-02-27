@@ -35,16 +35,16 @@ export default function HomePage() {
             AmericanVoice · 2026
           </p>
           <h1 className="text-4xl font-semibold leading-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
-            [Name Placeholder]
+            Brooks Garland
           </h1>
           <p className="text-lg text-slate-600 dark:text-slate-300 sm:text-xl">
-            Tagline option #15 goes here.
+            America first. Always.
           </p>
-          <p className="max-w-xl text-base leading-relaxed text-slate-600 dark:text-slate-300">
-            Student-athlete committed to civic engagement, evidence-based reform, and
-            anti-corruption leadership. Building trust through transparency, clear
-            goals, and follow-through.
-          </p>
+          <p className="max-w-xl text-base leading-relaxed">
+  I am a student-athlete, future leader, and aspiring public servant committed to putting America first through transparency, accountability, and principled leadership. Originally from Suwanee, Georgia, I grew up working in my family-owned business, where I learned firsthand the value of hard work, responsibility, and earning trust through results. From leading youth teams at my family’s seasonal tree lot to competing as a college golfer, I have developed discipline, resilience, and a team-first mindset that continue to shape my leadership approach today.
+  <br /><br />
+  Driven by a vision for honest government and economic growth, I am focused on advancing policies that strengthen American communities, support veterans, promote government transparency, and eliminate corruption in public institutions. My long term goal is to serve in public office, bringing a new generation of leadership grounded in integrity, accountability, and measurable outcomes for the American people.
+</p>
           <div className="flex flex-wrap gap-4">
             <Link
               href="/portfolio"
