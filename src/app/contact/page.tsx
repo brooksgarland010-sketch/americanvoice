@@ -22,47 +22,55 @@ export default function ContactPage() {
       </section>
 
       <section className="rounded-3xl border border-slate-200/70 bg-white/80 p-8 shadow-soft-xl dark:border-slate-800/70 dark:bg-slate-900/70">
-        <form className="grid gap-6">
+       <form
+  action="https://formspree.io/f/mnjbrbew"
+  method="POST"
+  className="grid gap-4"
+>
           <div className="grid gap-4 md:grid-cols-2">
             <label className="grid gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
               Name
               <input
-                type="text"
-                placeholder="Your name"
-                className="rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 dark:focus:border-slate-500"
-              />
+  type="text"
+  name="name"
+  placeholder="Your name"
+  className="rounded-2xl border ..."
+/>
             </label>
             <label className="grid gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
               Email
               <input
-                type="email"
-                placeholder="you@example.com"
-                className="rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 dark:focus:border-slate-500"
-              />
+  type="email"
+  name="email"
+  placeholder="you@example.com"
+  className="rounded-2xl border ..."
+/>
             </label>
           </div>
           <label className="grid gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
             Topic
             <input
-              type="text"
-              placeholder="Community event, media inquiry, feedback"
-              className="rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 dark:focus:border-slate-500"
-            />
+  type="text"
+  name="topic"
+  placeholder="Topic"
+  className="rounded-2xl border ..."
+/>
           </label>
           <label className="grid gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
             Message
-            <textarea
-              rows={5}
-              placeholder="Share details and any deadlines."
-              className="rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-700 shadow-sm outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 dark:focus:border-slate-500"
-            />
+           <textarea
+  name="message"
+  rows={5}
+  placeholder="Share details..."
+  className="rounded-2xl border border-slate-200 bg-white px-4 py-3"
+/>
           </label>
-          <button
-            type="button"
-            className="w-fit rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:shadow-soft-xl dark:bg-white dark:text-slate-900"
-          >
-            Send Message
-          </button>
+         <button
+  type="submit"
+  className="w-fit rounded-full bg-slate-900 px-6 py-3 text-white"
+>
+  Send Message
+</button>
         </form>
       </section>
     </div>
