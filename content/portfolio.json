@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Campus Integrity Initiative",
+    "summary": "Student-led oversight group advocating for transparent budgeting and open meetings.",
+    "focus": ["Anti-corruption", "Transparency", "Student government"],
+    "status": "Active",
+    "featured": true
+  },
+  {
+    "title": "Athlete Academic Bridge",
+    "summary": "Peer mentoring program connecting student-athletes with academic resources and study plans.",
+    "focus": ["Student-athlete", "Education", "Mentorship"],
+    "status": "Pilot"
+  },
+  {
+    "title": "Civic Literacy Sprint",
+    "summary": "Community workshops that break down local government processes in plain language.",
+    "focus": ["Civic engagement", "Public education"],
+    "status": "Seasonal"
+  },
+  {
+    "title": "Ethics & Accountability Scorecard",
+    "summary": "Public-facing dashboard that tracks promises, votes, and follow-through.",
+    "focus": ["Accountability", "Evidence-based policy"],
+    "status": "In development"
+  }
+]

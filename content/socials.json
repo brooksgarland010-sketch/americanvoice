@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Email",
+    "href": "mailto:you@example.com"
+  },
+  {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/your-handle"
+  },
+  {
+    "label": "X",
+    "href": "https://x.com/your-handle"
+  },
+  {
+    "label": "Instagram",
+    "href": "https://instagram.com/your-handle"
+  }
+]
