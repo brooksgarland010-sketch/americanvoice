@@ -67,7 +67,7 @@ export default function ContactPage() {
           </label>
          <button
   type="submit"
-  className="w-fit rounded-full bg-slate-900 px-6 py-3 text-white"
+  
 >
   Send Message
 </button>
